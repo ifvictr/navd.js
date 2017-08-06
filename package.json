@@ -1,0 +1,30 @@
+{
+  "name": "navd",
+  "version": "1.0.0",
+  "description": "Navigate through directories easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifvictr/navd.git"
+  },
+  "keywords": [
+    "directory",
+    "navigation"
+  ],
+  "author": "ifvictr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifvictr/navd/issues"
+  },
+  "homepage": "https://github.com/ifvictr/navd#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
