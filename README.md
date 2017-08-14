@@ -22,3 +22,6 @@ fs.readFile(navd.up(8, "folder/file.txt"), "utf8", (err, data) => {
 
 ## Tests
 `npm test`
+
+## License
+[MIT](LICENSE.txt)
