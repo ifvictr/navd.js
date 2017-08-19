@@ -7,7 +7,7 @@ describe("navd", () => {
             expect(() => navd.up(null, "dir/")).to.throw(TypeError);
         });
         it("should fail without 'filepath' parameter", () => {
-            expect(() => navd.up(0, null)).to.throw(TypeError); 
+            expect(() => navd.up(0, null)).to.throw(TypeError);
         });
         it("should stay in dir/", () => {
             expect(navd.up(0, "dir/")).to.equal("dir/");
